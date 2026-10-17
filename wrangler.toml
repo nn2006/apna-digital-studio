@@ -1,0 +1,10 @@
+name = "apna-digital-studio"
+compatibility_date = "2026-10-17"
+pages_build_output_dir = "."
+# For Cloudflare Pages, also add the D1 binding in the Pages dashboard:
+# Settings > Functions > D1 database bindings, variable name: DB
+# Or replace the database_id below and deploy using Wrangler.
+[[d1_databases]]
+binding = "DB"
+database_name = "apna-digital-leads"
+database_id = "REPLACE_WITH_YOUR_D1_DATABASE_ID"
